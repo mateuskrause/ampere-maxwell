@@ -15,6 +15,8 @@ MathJax = {
 
 # Lei de Ampere-Maxwell 
 
+Tarefa: Produção de Conteúdo para Fundamentos de Eletromagnetismo - Mateus Krause
+
 ## História
 
 O interesse inicial que estimulou pesquisadores a investigar uma relação entre corrente e campo magnético decorreu de uma observação feita em 1820 por Hans Christian Ørsted, onde percebeu que agulhas magnetizadas eram desviadas por correntes elétricas. Com isso, diversos físicos começaram a estudar o assunto separadamente, e nisso André-Marie Ampère propôs um experimento focado em medir as forças que dois fios elétricos exercem um sobre o outro.
@@ -65,7 +67,7 @@ Temos com a adição de Maxwell uma simetria com a lei de Faraday, onde da mesma
 
 Seja um capacitor duas placas condutoras separadas por algum material dielétrico. Considere o processo de carga deste capacitor. Quando ele está em um circuito e uma corrente o atravessa, temos alguns acontecimentos:
 
-- Antes de chegar às placas do capacitor, é pos["./capacitor.png"]sível medir a corrente elétrica $I$ no fio condutor.
+- Antes de chegar às placas do capacitor, é possível medir a corrente elétrica $I$ no fio condutor.
 - Entre as placas do capacitor, não há condução de corrente porque o material dielétrico impede o fluxo da carga $I$.
 
 Temos que dentro do capacitor, mesmo sem a corrente, ainda existe um campo magnético detectável ao redor das placas. Isso mostra que a equação original de Ampère não consegue descrever o campo magnético em todas as situações, pois, na equação original:
@@ -95,3 +97,11 @@ Na transmissão de dados por fibra optica, os cabos transmitem informações por
 Além disso, sistemas de carregamento sem fio utilizam conceitos abordados. Com a adição feita por Maxwell, é possível projetar dispositivos que carregam dispositivos como smartphones, por exemplo. Eles funcionam da seguinte maneira: coils geram campos magnéticos que variam de acordo com o tempo, com isso induzem correntes em coils próximos (o do dispositivo a ser carregado). Com o conhecimento adicionado, podemos transmitir energia por meios não metálicos!
 
 A lei de Ampère-Maxwell abriu caminhos para avanços tecnológicos necessários para a sociedade atual, sendo um importante tópico no estudo do eletromagnetismo.
+
+## Referências
+
+EM GEOSCI. Ampere-Maxwell Law. Disponível em: https://em.geosci.xyz/content/maxwell1_fundamentals/formative_laws/ampere_maxwell.html.
+
+LIMA, M. Notas de Eletromagnetismo – Capítulo 10: Equações de Maxwell e Ondas Eletromagnéticas. Departamento de Física Matemática, Instituto de Física da USP, 2017. Disponível em: https://fma.if.usp.br/~mlima/teaching/4323203_2017/Cap10.pdf.
+
+Material virtual para a turma de Fundamentos de Eletromagenetismo da Universidade Federal de Minas Gerais – UFMG. Disponível no ambiente virtual Moodle da disciplina.
