@@ -2,7 +2,15 @@
 title: Lei de Ampère-Maxwell
 ---
 
+<script type="text/javascript">
+MathJax = {
+  tex: {
+    inlineMath: [['$', '$'], ['\\(', '\\)']]
+  }
+};
+</script>
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.js"></script>
+
 
 
 # Lei de Ampere-Maxwell 
@@ -22,32 +30,32 @@ Retomando a Lei de Ampère original, temos que ela relaciona o campo magnético 
 A equação de Ampère-Maxwell é dada como o seguinte, sobre uma superfície com curva $C$, escrita da forma integral:
 
 $$
-\int_{S} \bold{\nabla \times b \cdot da} = \oint \bold{B \cdot dl} = \mu_0 \left( I + I_D \right).
+\int_{S} \mathbf{\nabla \times b \cdot da} = \oint \mathbf{B \cdot dl} = \mu_0 \left( I + I_D \right).
 $$
 
 Onde:
 
 $$
-I_D = \varepsilon_0 \frac{d}{dt} \int \bold{e} \cdot \bold{\hat{n}} \ da.
+I_D = \varepsilon_0 \frac{d}{dt} \int \mathbf{e} \cdot \mathbf{\hat{n}} \ da.
 $$
 
 Temos então, visualizando de forma completa:
 
 $$
-\oint \bold{B \cdot dl} = \mu_0 \left( I + \varepsilon_0 \frac{d}{dt} \int \bold{e} \cdot \bold{\hat{n}} \ da \right).
+\oint \mathbf{B \cdot dl} = \mu_0 \left( I + \varepsilon_0 \frac{d}{dt} \int \mathbf{e} \cdot \mathbf{\hat{n}} \ da \right).
 $$
 
 Sendo os termos:
 
-- $\bold{C}$: campo magnético;
-- $\bold{e}$: campo elétrico;
-- $\bold{I}$: corrente elétrica que atravessa $S$;
-- $\bold{I_D}$: corrente de deslocamento;
+- $\mathbf{C}$: campo magnético;
+- $\mathbf{e}$: campo elétrico;
+- $\mathbf{I}$: corrente elétrica que atravessa $S$;
+- $\mathbf{I_D}$: corrente de deslocamento;
 - $\mu_0$: permeabilidade magnética do meio;
 - $\varepsilon_0$: permissivide elétrica do vácuo;
-- $\hat{\bold{n}}$: vetor normal unitário à superfície $S$;
+- $\hat{\mathbf{n}}$: vetor normal unitário à superfície $S$;
 
-O primeiro termo da parte direita da primeira equação relaciona a corrente $I$ e o campo magnético $\bold{B}$ em torno de uma curva $C$. É a contribuição original feita por Ampère, onde $I$ diz sobre todas as correntes não dependendo do eu local de origem.
+O primeiro termo da parte direita da primeira equação relaciona a corrente $I$ e o campo magnético $\mathbf{B}$ em torno de uma curva $C$. É a contribuição original feita por Ampère, onde $I$ diz sobre todas as correntes não dependendo do eu local de origem.
 
 A segunda parte é a contribuição feita por maxwell e mostra que a circulação do campo magnético também é causada pela variação do fluxo elétrico. 
 
@@ -61,14 +69,14 @@ Seja um capacitor duas placas condutoras separadas por algum material dielétric
 Temos que dentro do capacitor, mesmo sem a corrente, ainda existe um campo magnético detectável ao redor das placas. Isso mostra que a equação original de Ampère não consegue descrever o campo magnético em todas as situações, pois, na equação original:
 
 $$
-\oint \bold{B} \cdot d \bold{l} = \mu_0 I
+\oint \mathbf{B} \cdot d \mathbf{l} = \mu_0 I
 $$
 
 Como $I = 0$, não há explicação do porquê existir campo magnético detectável.
 
 Maxwell corrigiu esse problema adicionando o termo de corrente de deslocamento, resultando na equação apresentada anteriormente. O temo adicionado diz sobre a corrente associada à variação no campo elétrico entre as placas do capacitor.
 
-Logo, enquanto o capacitor está carregando ou descarregando, o campo elétrico $\bold{e}$ entre as placas se altera com o passar do tempo, e essa variação gera uma corrente de deslocamento - equivalente em termos de magnitude à corrente de condução que está alimentando o capacitor. 
+Logo, enquanto o capacitor está carregando ou descarregando, o campo elétrico $\mathbf{e}$ entre as placas se altera com o passar do tempo, e essa variação gera uma corrente de deslocamento - equivalente em termos de magnitude à corrente de condução que está alimentando o capacitor. 
 
 ## Aplicações no Dia-a-Dia
 
