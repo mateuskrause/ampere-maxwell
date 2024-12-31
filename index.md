@@ -81,7 +81,8 @@ Maxwell corrigiu esse problema adicionando o termo de corrente de deslocamento, 
 Logo, enquanto o capacitor está carregando ou descarregando, o campo elétrico $\mathbf{e}$ entre as placas se altera com o passar do tempo, e essa variação gera uma corrente de deslocamento - equivalente em termos de magnitude à corrente de condução que está alimentando o capacitor.
 
 Podemos imaginar integrar sobre uma superfície $S$ que está associada a um caminho fechado $C$.
-![teste](./capacitor.png)
+
+![Capacitor](./capacitor.png)
 
 Esse exemplo nos mostra que a lei original não faria muito sentido sem a adição de Maxwell, que possibilitou avanços na área.
 
