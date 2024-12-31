@@ -1,3 +1,9 @@
+---
+title: Lei de Ampère-Maxwell
+---
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.js"></script>
+
 
 # Lei de Ampere-Maxwell 
 
